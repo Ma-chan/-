@@ -255,8 +255,14 @@ ghci>[3,6..20]
 ```
 
 ---
-<span style="color: red; "> cycle</span> 無限のリストの中で、リストと周期をとる
+<span style="color: red; "> cycle</span> 
+無限のリストの中で、リストと周期をとる
+
+<br>
+
 take <数字> (cycle[要素])
+
+<br>
 リストの中身の要素を周期的に<数字>個まで繰り返す
 
 ```
