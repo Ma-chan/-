@@ -115,7 +115,7 @@ ghci> head [5,4,3,2,1]
 ```
 <br>
 
-#### tail:リストの先頭要素を取り除く
+#### <span style="color: red; "> tail </span>:リストの先頭要素を取り除く
 
 ```
 ghci> tail [5,4,3,2,1]  
