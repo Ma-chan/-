@@ -189,6 +189,7 @@ ghci> reverse [5,4,3,2,1]
 
 ---
  <span style="color: red; ">take </span>
+ <br>
 take <数字> [リスト]:リストの初めの要素から<数字>番目の要素まで取り出す。
 
 リストよりも長い要素数を取り出そうとすると、そのままのリストが返る
@@ -206,7 +207,8 @@ ghci> take 0 [6,6,6]
 ```
 
 ---
-### drop <数字> [リスト]:
+ <span style="color: red; ">drop </span>
+drop <数字> [リスト]:
 
 ---
 ### Texas ranges
@@ -237,7 +239,7 @@ ghci>[3,6..20]
 ```
 
 ---
-<span style="color: red; "> ### cycle</span> 無限のリストの中で、リストと周期をとる
+<span style="color: red; "> cycle</span> 無限のリストの中で、リストと周期をとる
 take <数字> (cycle[要素])
 リストの中身の要素を周期的に<数字>個まで繰り返す
 
@@ -249,7 +251,7 @@ ghci>take 12 (cycle"LOL ")
 ```
 
 ---
-### repeat
+ <span style="color: red; ">repeat</span>
 
 要素をとり、その要素の無限のリストを生成する
 一つの要素のみを用いた周期的なリストのようである
@@ -262,7 +264,7 @@ ghci>take 10 (repeat 5)
 ```
 
 ---
-<span style="color: red; "> ### replicate </span>
+<span style="color: red; "> replicate </span>
 
 リストの中で同じ要素のいくつかの数が欲しい場合
 
