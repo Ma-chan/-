@@ -11,6 +11,22 @@
 松本彩花
 
 ---
+### 前準備
+
+コマンドを起動する
+```
+PoohGirl:~ matsumotoayaka$ ghci
+GHCi, version 8.6.3: http://www.haskell.org/ghc/  :? for help
+Prelude>
+```
+
+Preludeから対話モードに切り替える
+
+```
+Prelude> :set prompt "ghci>"
+```
+
+---
 ### An intro to lists
 - ハスケルでは、リストは同種のデータ構造
   - 同じ型のいくつかの要素が保存できる
