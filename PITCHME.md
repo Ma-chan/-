@@ -162,6 +162,12 @@ ghci> init [5,4,3,2,1]
 ```
 ghci> head []  
 *** Exception: Prelude.head: empty list 
+ghci>tail []
+*** Exception: Prelude.tail: empty list
+ghci>init []
+*** Exception: Prelude.init: empty list
+ghci>last []
+*** Exception: Prelude.last: empty list
 
 ```
 
