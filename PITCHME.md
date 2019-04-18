@@ -200,6 +200,7 @@ ghci> null xs
 True
 ```
 
+---
 <span style="color: red; "> reverse </span>
 
 reverse [リスト]:リストの要素を逆順にする
