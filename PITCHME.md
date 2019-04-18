@@ -107,7 +107,7 @@ True
 ```
 
 ---
-#### head:リストの先頭要素を取得
+<h2><span style="color: red; "> head</span>:リストの先頭要素を取得</h2>
 
 ```
 ghci> head [5,4,3,2,1]  
