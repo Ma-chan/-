@@ -107,7 +107,7 @@ True
 ```
 
 ---
-<h2><span style="color: red; "> head</span>:リストの先頭要素を取得</h2>
+<span style="color: red; "> head</span>:リストの先頭要素を取得
 
 ```
 ghci> head [5,4,3,2,1]  
@@ -115,7 +115,7 @@ ghci> head [5,4,3,2,1]
 ```
 <br>
 
-#### <span style="color: red; "> tail </span>:リストの先頭要素を取り除く
+ <span style="color: red; "> tail </span>:リストの先頭要素を取り除く
 
 ```
 ghci> tail [5,4,3,2,1]  
@@ -123,7 +123,7 @@ ghci> tail [5,4,3,2,1]
 ```
 <br>
 
-#### last:リストの最後の要素を返す
+ <span style="color: red; "> last</span>:リストの最後の要素を返す
 
 ```
 ghci> last [5,4,3,2,1]  
@@ -131,7 +131,7 @@ ghci> last [5,4,3,2,1]
 ```
 
 ---
-#### init:最後の要素以外の全てを返す
+ <span style="color: red; "> init</span>:最後の要素以外の全てを返す
 
 ```
 ghci> init [5,4,3,2,1]  
@@ -150,7 +150,9 @@ ghci> head []
 ```
 
 ---
-#### length [リスト]:リストの長さを返す
+ <span style="color: red; "> length </span>
+ 
+ length [リスト]:リストの長さを返す
 
 ```
 ghci> length [5,4,3,2,1]  
@@ -158,7 +160,9 @@ ghci> length [5,4,3,2,1]
 
 ```
 
-#### null [リスト]:リストが空か確認する
+ <span style="color: red; "> null</span> 
+ 
+ null [リスト]:リストが空か確認する
 
 
 ```
@@ -174,7 +178,8 @@ ghci> null xs
 True
 ```
 
-#### reverse [リスト]:リストの要素を逆順にする
+<span style="color: red; "> reverse </span>
+reverse [リスト]:リストの要素を逆順にする
 
 ```
 ghci> reverse [5,4,3,2,1]  
@@ -183,7 +188,8 @@ ghci> reverse [5,4,3,2,1]
 ```
 
 ---
-### take <数字> [リスト]:リストの初めの要素から<数字>番目の要素まで取り出す。
+ <span style="color: red; ">take </span>
+take <数字> [リスト]:リストの初めの要素から<数字>番目の要素まで取り出す。
 
 リストよりも長い要素数を取り出そうとすると、そのままのリストが返る
 <数字>を0にすると、空のリストが返る
