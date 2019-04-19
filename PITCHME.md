@@ -232,7 +232,18 @@ ghci> take 0 [6,6,6]
 ---
 
  <span style="color: red; ">drop </span>
-drop <数字> [リスト]:
+ 
+drop <数字> [リスト]
+リストの初めから要素の数
+
+```
+ghci> drop 3 [8,4,2,1,5,6]  
+[1,5,6]  
+ghci> drop 0 [1,2,3,4]  
+[1,2,3,4]  
+ghci> drop 100 [1,2,3,4]  
+[]   
+```
 
 ---
 ### Texas ranges
