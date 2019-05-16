@@ -322,7 +322,7 @@ ghci>[x*2|x<-[1..10],x*2>=12]
 
 ---
 
-```
+```hs cylinder.hs
 ghci> :{
 Prelude| cylinder :: (RealFloat a) => a -> a -> a  
 Prelude| cylinder r h = 
