@@ -322,18 +322,5 @@ ghci>[x*2|x<-[1..10],x*2>=12]
 
 ---
 
-```hs cylinder.hs
-ghci> :{
-Prelude| cylinder :: (RealFloat a) => a -> a -> a  
-Prelude| cylinder r h = 
-Prelude|     let sideArea = 2 * pi * r * h  
-Prelude|         topArea = pi * r ^2  
-Prelude|     in  sideArea + 2 * topArea  
-Prelude| :}
-ghci> cylinder 2 2
-50.26548245743669
-ghci> cylinder 10 3
-816.8140899333462
 
-```
 
