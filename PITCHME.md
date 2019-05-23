@@ -326,7 +326,7 @@ ghci>[x*2|x<-[1..10],x*2>=12]
 
 ### カリー関数
 
-![alt](haskellyosyuu/hogecurry.png)
+![カリー](haskellyosyuu/hogecurry.png) 
 
 ----
 
