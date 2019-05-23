@@ -1,6 +1,6 @@
 ---
 
-### ”Learn You a Haskell  for Great Good!”を読んでみた
+# ”Learn You a Haskell  for Great Good!”を読んでみた
 <br>
 日本女子大学大学院
 <br>
@@ -321,12 +321,42 @@ ghci>[x*2|x<-[1..10],x*2>=12]
 ```
 
 ---
-# 高次命令関数 
-# Highly order function
+# 高階関数 Highly order function 
 ---
 
-### 
+### カリー関数
+
+複数のパラメータを扱うために、複数のパラメータを一つのパラメータにする関数
+Haskellの関数はデフォルトでカリー化されている
+
+例　Max関数
+二つの入力値から一つの出力値を返す
+以下の関数呼び出しは二つとも同じ意味である。
+
+```
+    ghci> max 4 5  
+    5  
+    ghci> (max 4) 5  
+    5  
+
+```
 
 ---
 
+multThree関数
+```
+:{
+multThree :: (Num a) => a -> a -> a -> a
+multThree x y z = x * y * z
+:}
 
+ghci>multTree 3 5 9
+135 
+```
+multWihtEighteen関数宣言
+```
+ghci>let multWithEighteen = multTwoWithNine 2
+ghci>multWithEighteen 10
+180
+
+```
