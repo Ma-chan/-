@@ -1,6 +1,6 @@
 ---
 
-# ”Learn You a Haskell  for Great Good!”を読んでみた
+### ”Learn You a Haskell  for Great Good!”を読んでみた
 <br>
 日本女子大学大学院
 <br>
@@ -321,7 +321,7 @@ ghci>[x*2|x<-[1..10],x*2>=12]
 ```
 
 ---
-# 高階関数 Highly order function 
+### 高階関数 Highly order function 
 ---
 
 ### カリー関数
@@ -353,10 +353,17 @@ multThree x y z = x * y * z
 ghci>multTree 3 5 9
 135 
 ```
-multWihtEighteen関数宣言
+multWihtEighteen関数
 ```
 ghci>let multWithEighteen = multTwoWithNine 2
 ghci>multWithEighteen 10
 180
 
 ```
+
+```
+compareWithHundred :: (Num a, Ord a) => a -> Ordering  
+compareWithHundred x = compare 100 x 
+```
+
+
