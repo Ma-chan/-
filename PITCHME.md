@@ -323,14 +323,8 @@ ghci>[x*2|x<-[1..10],x*2>=12]
 ---
 ### 高階関数 Highly order function 
 ---
-
-### カリー関数
-
-![カリー](haskellyosyuu/hogecurry.png) 
-
-
-
 ----
+
 ### カリー関数
 
 複数のパラメータを扱うために、複数のパラメータを一つのパラメータにする関数
@@ -350,27 +344,4 @@ Haskellの関数はデフォルトでカリー化されている
 
 ---
 
-multThree関数
-```
-:{
-multThree :: (Num a) => a -> a -> a -> a
-multThree x y z = x * y * z
-:}
-
-ghci>multTree 3 5 9
-135 
-```
-multWihtEighteen関数
-```
-ghci>let multWithEighteen = multTwoWithNine 2
-ghci>multWithEighteen 10
-180
-
-```
-
-```
-compareWithHundred :: (Num a, Ord a) => a -> Ordering  
-compareWithHundred x = compare 100 x 
-```
-
-
+###  
