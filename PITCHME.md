@@ -323,7 +323,6 @@ ghci>[x*2|x<-[1..10],x*2>=12]
 ---
 ### 高階関数 Highly order function 
 ---
-----
 
 ### カリー関数
 
@@ -344,4 +343,24 @@ Haskellの関数はデフォルトでカリー化されている
 
 ---
 
-###  
+###  Today's contents 
+
+- Only folds and horses
+- Function application with $
+- Modules 
+  Loading modules
+  Data Char
+  
+---
+### Only folds and horses
+
+
+---
+### Function application with $
+
+---
+### Modules 
+
+
+---
+### Today's summary
