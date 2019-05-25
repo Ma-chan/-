@@ -345,18 +345,33 @@ Haskellの関数はデフォルトでカリー化されている
 
 ###  Today's contents 
 
+#### Higher order function
 - Only folds and horses
 - Function application with $
-- Modules 
-  Loading modules
-  Data Char
+#### Modules 
+- Loading modules
+- Data Char
   
 ---
 ### Only folds and horses
 
 
+
+Example1. sum' function
+```haskell:sum.hs
+    sum' :: (Num a) => [a] -> a  
+    sum' xs = foldl (\acc x -> acc + x) 0 xs  
+```
+```haskell:execution_result.hs
+    ghci> sum' [3,5,2,1]  
+    11  
+```
 ---
 ### Function application with $
+
+```
+
+```
 
 ---
 ### Modules 
